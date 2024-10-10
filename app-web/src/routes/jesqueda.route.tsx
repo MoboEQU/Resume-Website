@@ -1,5 +1,11 @@
+import ResponsiveAppBar from "../components/nav-bar.component";
+
 const JoseEsqueda = () => {
-    return <h1>This is Jose Esqueda's New Page</h1>;
+    return (
+    <>
+        <ResponsiveAppBar/>
+    </>
+    )
 };
 
 export default JoseEsqueda;
